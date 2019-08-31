@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan|Barlow+Semi+Condensed|Satisfy&display=swap');
+
+.primary-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-header {
+  background: url(../img/bg1.jpeg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  color: #fff;
+  position: relative;
+
+}
+
+.main-header .showcase {
+  padding-top: 100px;
+  font-family: 'Satisfy', cursive;
+  color:  #dfbf9f;
+}
+
+nav{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+.side-nav .btn{
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+.s1 .flow-text{
+  color:  #dfbf9f;
+}
+
+.s1 h2{
+  font-family: 'Baloo Chettan', cursive;
+  color:  #dfbf9f;
+}
+.s1 .btn{
+  border-style: solid;
+  color:  #dfbf9f;
+  border-color: #dfbf9f;
+}
+
+.s2{
+  background-color: #dfbf9f;
+}
+.s2 .card-panel{
+  color: #dfbf9f !important;
+}
+.s2 h2{
+  font-family: 'Baloo Chettan', cursive;
+  color: #fff;
+}
+.s2 .flow-text{
+  font-size: 20px;
+}
+
+.s3 h2{
+  font-family: 'Baloo Chettan', cursive;
+  color:  #dfbf9f;
+}
+.s3 .btn{
+  border-style: solid;
+  color:  #dfbf9f;
+  border-color: #dfbf9f;
+  margin-top: 140px;
+}
+
+.s4{
+  background: #dfbf9f;
+}
+.s4 .text1{
+  font-size: 20px;
+}
+footer{
+  background: #cc9966;
+}
+.s5 p{
+  font-size: 15px;
+}

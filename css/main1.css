@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan|Barlow+Semi+Condensed|Satisfy&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+.side-nav .btn{
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+footer{
+  background: #cc9966;
+}
