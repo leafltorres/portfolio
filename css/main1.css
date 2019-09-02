@@ -12,6 +12,24 @@ nav{
   width: 100%;
   background: rgba(0, 0, 0, 0.5) !important;
 }
+.white {
+  color: #c36a2d !important;
+}
+.s4{
+  background: #e2c275;
+}
+.s4 .text1{
+  font-size: 20px !important;
+}
+.s4 a{
+  margin: 10px !important;
+}
+.s7 h2{
+  color: #c36a2d !important;
+}
+.s7 .determinate{
+  background-color: #cc9966 !important;
+}
 footer{
   background:#c36a2d;
 }

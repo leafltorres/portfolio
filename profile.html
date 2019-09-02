@@ -31,7 +31,7 @@
             <a href="#s1">About</a>
           </li>
           <li>
-            <a href="#s3">Works</a>
+            <a href="project.html">Works</a>
           </li>
           <li>
             <a href="#s4">Contacts</a>
@@ -60,7 +60,7 @@
           <a href="#s1">About</a>
         </li>
         <li>
-          <a href="#s3">Works</a>
+          <a href="project.html">Works</a>
         </li>
         <li>
           <a href="#s4">Contacts</a>
@@ -94,8 +94,7 @@
         <div class="row">
           <div class="col s12">
               <p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa nemo quibusdam quasi ipsa aliquam? Voluptates quos commodi accusantium repellendus corporis nemo sint at doloremque reprehenderit..</p>
-
-              <a href="index.html" class="btn btn-large transparent flow-text">Download CV</a>
+              <a id="toast" class="btn btn-large transparent flow-text">Download CV</a>
           </div>
         </div>
       </div>
@@ -107,18 +106,33 @@
     <div class="row">
       <div class="col s12 m6">
         <h2 class="black-text">Education</h2>
-        <p class="flow-text center justify">Course: Bachelor of Science in<span class="red-text"> Computer Science</span><br>Year Graduated: <span class="red-text">2014</span> </p>
-       
-      </div>
+        <p class="flow-text center justify">Course: Bachelor of Science in<span class="red-text"> Computer Science</span><br>School: <span class="red-text">San Sebastian College - Recoletos, Manila</span><br>Year Graduated: <span class="red-text">2014</span> </p>
+        <h2 class="black-text">Trainings</h2>
+        <div class="container">
+            <div class="row">
+        <div class="col s12 m6">
+          <div class="material-placeholder">
+            <img src="img/p14.jpg" class="materialboxed" width="100%">
+          </div>
+        </div>
+        <div class="col s12 m6">
+            <div class="material-placeholder">
+              <img src="img/p7.jpg" class="materialboxed" width="100%">
+            </div>
+            </div>
+        </div>
+      </div>  
+    </div>
+    
       <div class="col s12 m6">
         <h2 class="black-text">Work Experience</h2>
         <p class="flow-text">Company Name: <span class="red-text">Subways Marketing</span><br>
-        Year: <span class="red-text">2016 - 2019</span><br>Position: <span class="red-text">Sales Secretary and Coordinator</span></p><br>
-        <p class="flow-text">Company Name: <span class="red-text">Seven Seas (EMS)</span><br>
+        Year: <span class="red-text">2016 - 2019</span><br>Position: <span class="red-text">Sales Secretary and Coordinator</span></p>
+        <p class="flow-text">Company Name: <span class="red-text">Seven Seas EMS</span><br>
         Year: <span class="red-text">2015 - 2016</span><br>Position: <span class="red-text">Data Encoder Assistant</span></p>
+        <p class="flow-text">Company Name: <span class="red-text">Social Security Systems SSS</span><br>Year: <span class="red-text">2009</span><br>Position: <span class="red-text">Admin Assistant</span></p>
       </div>
-    </div>
-  </div>
+    
 </section>
 
   <!-- Section: Follow -->
@@ -163,6 +177,11 @@
   <script>
   $('.button-collapse').sideNav();
   $('.carousel').carousel();
+  // ROUNDED TOAST
+  $('#toast').click(function(){
+        Materialize.toast('This option is under construction', 3000, 'rounded');
+      })
+
   </script>
 
 
